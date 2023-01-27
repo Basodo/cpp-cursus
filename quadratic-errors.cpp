@@ -14,13 +14,18 @@ int main()
     float c;
     float solution;
 
-
-    
-
-
     std::cout << "Please enter the values of a, b, and c:";
     std::cin >> a >> b >> c;
 
+    if(a ,b ,c =! float){
+        
+    }
+	}
+
+	return (0);
+
+float calculations()
+{
     for (int i = 1; i <= 10; ++i);
 	{
 		if ((b * b - 4 * a * c) > 0)
@@ -42,7 +47,6 @@ int main()
             std::cout << "There is no solution.";
 
         }
-	}
 
-	return (0);
+}
 }
